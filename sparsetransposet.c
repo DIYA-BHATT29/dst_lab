@@ -36,10 +36,7 @@ void main()
     printf("enter the matrix:");
     for(i=0;i<m;i++)
      for(j=0;j<n;j++)
-      scanf("%d",&A[i][j]);
- Sparse(A,m,n);
- Transpose();      
-      }
+      scanf("%d",&A[i][j]); }
       void Transpose()
       {int m,n,k,i,j;
       T[0][0]=S[0][1];   T[0][1]=S[0][0]; T[0][2]=S[0][2];
