@@ -9,7 +9,7 @@ void main()
    printf("\nSecond polynomial:");
    displayPoly(p2,t2);
 
-   /*add two polynomials and display resultant polynomial */
+  
    t3=addPoly(p1,p2,t1,t2,p3);
    printf("\n\nResultant polynomial after addition:");
    displayPoly(p3,t3);
